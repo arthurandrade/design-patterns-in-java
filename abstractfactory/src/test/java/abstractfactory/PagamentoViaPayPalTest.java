@@ -11,6 +11,7 @@ import exceptions.AlertaDeRiscoException;
 import exceptions.CapturaNaoAutorizadaException;
 import pagamento.ModuloPagamentoFactory;
 import pagamento.Pagamento;
+import pagamento.PayPalModuloPagamentoFactory;
 
 public class PagamentoViaPayPalTest {
 	private Pagamento pagamento;

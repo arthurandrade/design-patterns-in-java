@@ -1,10 +1,9 @@
-package abstractfactory;
+package pagamento;
 
 import gestoderisco.ClearSale;
 import gestoderisco.GestorDeRisco;
 import operadora.Operadora;
 import operadora.RedeCard;
-import pagamento.ModuloPagamentoFactory;
 
 public class PayPalModuloPagamentoFactory implements ModuloPagamentoFactory {
 
